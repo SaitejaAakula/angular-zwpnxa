@@ -1,0 +1,49 @@
+.Header {
+  width:500px;
+  float: left;
+  background-color: #c5c5c5;
+  font-family: sans-serif;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.Pro-Details {
+  width: 500px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+
+    border-right: 1px solid #ccc;
+    clear: both;
+    float: left;
+}
+.Header .column{
+  width:33% !important;
+  float:left;
+}
+.Pro-Details .column{
+    width:33% !important;
+    float:left;
+}
+.Filter{
+      width: 200px;
+    box-sizing: border-box;
+    padding: 9px;
+    float: left;
+    clear: both;
+}
+.Nodata{
+      width: 500px;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: green;
+}

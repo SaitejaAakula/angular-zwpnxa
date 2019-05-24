@@ -1,0 +1,17 @@
+<div class="Wrapper">
+  <h2>List of Products</h2>
+<div class="Header">
+      <div class="column">Product Id</div>
+      <div class="column">Product Name</div>
+      <div class="column">Product Price</div>
+</div>
+    <div class="Pro-Details" *ngFor="let product of products | filter: searchText">
+      <div class="column">{{product.id}}</div>
+      <div class="column">{{product.name}}</div>
+      <div class="column">{{product.price}}</div>
+    </div>
+    <div class="Nodata" *ngIf="(products | filter: searchText).length == 0">No Data Found</div>
+
+  <input type="text" class="Filter" placeholder="filter by name" [(ngModel)]="searchText"/>
+
+</div>
